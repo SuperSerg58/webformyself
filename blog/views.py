@@ -72,6 +72,3 @@ class Search(ListView):
         context['s'] = str(self.request.GET.get('s'))
         return context
 
-
-def test(request):
-    pass
