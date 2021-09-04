@@ -71,3 +71,7 @@ class Search(ListView):
         context['s'] = f"s={self.request.GET.get('s')}&"
         context['s'] = str(self.request.GET.get('s'))
         return context
+
+
+def test(request):
+    pass
